@@ -5,9 +5,13 @@ Under construction! Still you can use!
 Developed by Tanmay Varade
 
 This project help to compare your RDS parameter group with their default.
+## If you get error for comparerdspg- ModuleNotFoundError: No module named 'comparerdspg'
+```
+python3 -m pip install comparerdspg
+```
 
 ## Examples of How To Use
-
+Make sure you export your AWS credential to terminal
 ### Compare one or more RDS instance parameter group
 
 ```python
